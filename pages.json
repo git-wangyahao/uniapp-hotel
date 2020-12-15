@@ -8,7 +8,7 @@
 			"style": {
 				"navigationBarTitleText": "最新",
 				"enablePullDownRefresh": true,
-				// "navigationStyle":"custom",
+				"navigationStyle":"custom",
 				"app-plus": {  
 					 "titleNView":{
 						"backButton":{
@@ -23,7 +23,7 @@
 		{
 			"path": "pages/new/detail",
 			"navigationStyle":"custom",
-			"app-plus": {
+			"style": {
 				"bounce": "none",
 				"titleNView": {
 					"buttons": [{
@@ -32,6 +32,57 @@
 				}
 			}
 		},
+		{
+			"path": "pages/new/pages/search",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle":"custom",
+				"app-plus": {  
+					 "titleNView":{
+						"backButton":{
+						  "badgeText":"99",
+						  "badgeColor":"#FF0000",
+						  "badgeBackground":"#00FF00"
+						}
+					  }
+				}  
+			}
+		},
+		{
+			"path": "pages/new/pages/list",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle":"custom",
+				"app-plus": {  
+					 "titleNView":{
+						"backButton":{
+						  "badgeText":"99",
+						  "badgeColor":"#FF0000",
+						  "badgeBackground":"#00FF00"
+						}
+					  }
+				}  
+			}
+		},
+		{
+			"path": "pages/new/pages/hotel-home",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle":"custom",
+				"app-plus": {  
+					 "titleNView":{
+						"backButton":{
+						  "badgeText":"99",
+						  "badgeColor":"#FF0000",
+						  "badgeBackground":"#00FF00"
+						}
+					  }
+				}  
+			}
+		},
+		
+		
+		
 		{
 			"path": "pages/hot/hot",
 			"style": {
